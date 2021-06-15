@@ -26,6 +26,7 @@ module.exports = {
                 purple: "#8b60ed",
             },
             spacing: {
+                44: "11rem",
                 70: "17.5rem",
                 175: "43.75rem",
             },
@@ -34,6 +35,9 @@ module.exports = {
             },
             fontFamily: {
                 sans: ["Open Sans", ...defaultTheme.fontFamily.sans],
+            },
+            fontSize: {
+                xxs: ["0.625rem", { lineHeight: "1rem" }],
             },
         },
     },
